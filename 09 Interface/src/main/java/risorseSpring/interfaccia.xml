@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+          <bean id="triangolo"   class="it.alfasoft.alex.interfaccia.Triangolo" autowire="byName">
+            
+                
+          </bean>
+          
+<!--            <bean id="cerchio"   class="it.alfasoft.alex.interfaccia.Cerchio"> -->
+<!--              <property name="centro"    ref="p3"/> -->
+          
+<!--             </bean> -->
+            
+            
+            
+            
+          
+            <bean id="puntoA"   class="it.alfasoft.alex.interfaccia.Punto">
+            
+               <property name="x" value="10"></property>
+               <property name="y" value="10"></property>
+          
+            </bean>
+            
+               <bean id="puntoB"   class="it.alfasoft.alex.interfaccia.Punto">
+            
+               <property name="x" value="20"></property>
+               <property name="y" value="20"></property>
+          
+            </bean>
+            
+               <bean id="puntoC"   class="it.alfasoft.alex.interfaccia.Punto">
+            
+               <property name="x" value="30"></property>
+               <property name="y" value="30"></property>
+          
+            </bean>
+            
+            
+<!--               per utilizzare annotazione @Required -->
+            <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+            
+  </beans>          
