@@ -3,4 +3,16 @@
   <groupId>it.alfasoft.alex</groupId>
   <artifactId>PrimaApplicationContext</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-</project>
+
+
+ <dependencies>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.3.3.RELEASE</version>
+</dependency>
+
+ </dependencies>
+ 
+ </project>
